@@ -1,0 +1,705 @@
+@font-face {
+    font-family: Roboto;
+    src: url('.//font/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url('.//font/Fredoka_Condensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: Hind Madurai;
+    src: url('.//font/HindMadurai-Regular.ttf');
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1600px;
+    height: 5900px;
+    background-color: white;
+}
+
+.header {
+    width: 1600px;
+    height: 862px;
+    background-color: #F2CEDA;
+    position: relative;
+}
+
+.header_img {
+    width: 79px;
+    height: 79px;
+    top: 10px;
+    left: 100px;
+    position: absolute;
+}
+
+.header_item {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    gap: 40px;
+    top: 41px;
+    left: 400px;
+    font-family: Roboto;
+}
+
+.text {
+    color: #D23166;
+}
+
+.header_btn {
+    width: 165px;
+    height: 49px;
+    background-color: #D23166;
+    color: white;
+    border-radius: 5px;
+    border: #D23166;
+    position: absolute;
+    top: 25px;
+    left: 950px;
+    font-family: Roboto;
+}
+
+.header_btn:hover {
+    background-color: white;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+
+.main {
+    width: 675px;
+    height: 364px;
+    background-color: #F2CEDA;
+    position: absolute;
+    top: 200px;
+    left: 254px;
+}
+
+.main_text {
+    position: absolute;
+    font-family: Roboto;
+    width: 172px;
+    height: 16px;
+    top: 100px;
+}
+
+.main_text_big {
+    position: absolute;
+    width: 665px;
+    height: 130px;
+    top: 100px;
+    font-size: 65px;
+    font-family: Fredoka;
+}
+
+.main_text_pink {
+    color: #D23166;
+    position: absolute;
+    top: 80px;
+    left: 370px;
+}
+
+.main_text_small {
+    width: 523px;
+    height: 78px;
+    position: absolute;
+    top: 300px;
+    font-family: Roboto;
+}
+
+.main_btn {
+    width: 165px;
+    height: 49px;
+    background-color: #D23166;
+    color: white;
+    border-radius: 5px;
+    border: #D23166;
+    position: absolute;
+    top: 400px;
+    font-family: Roboto;
+}
+
+.main_btn:hover {
+    background-color: white;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+
+.main_img {
+    margin-top: 0px;
+    margin-left: 350px;
+    background-color: #F2CEDA;
+}
+
+.main_cards {
+    position: relative;
+    width: 1117px;
+    height: 200px;
+    top: 100px;
+    left: 20px;
+    border-radius: 7px;
+    border: 1px;
+    background-color: white;
+}
+
+.box_big {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: white;
+    border: black solid 0.5px;
+}
+
+.box_img {
+    position: absolute;
+    left: 50px;
+}
+
+.box_text {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: Hind Madurai;
+}
+
+.box_gigant {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: white;
+    border: black solid 0.5px;
+    left: 290px;
+}
+
+.box_text_gigant {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: Hind Madurai;
+}
+
+.box_very {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: white;
+    border: black solid 0.5px;
+    left: 580px;
+}
+
+.box_text_gigant {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: Hind Madurai;
+}
+
+.box_apple {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: white;
+    border: black solid 0.5px;
+    left: 870px;
+}
+
+.box_text_apple {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: Hind Madurai;
+}
+
+.img {
+    position: absolute;
+    top: 1168px;
+}
+
+.box_big_gigant {
+    position: relative;
+    width: 1160px;
+    height: 2300px;
+    top: 900px;
+    left: 0px;
+    background-color: white;
+}
+
+.box_text_big {
+    font-family: Hind Madurai;
+    font-weight: 600;
+    font-size: 44.2px;
+}
+
+.textlar {
+    font-family: Roboto;
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    top: 100px;
+    left: 200px;
+}
+
+.box_small {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.text_small {
+    font-family: Hind Madurai;
+    position: absolute;
+    width: 706px;
+    height: 100px;
+    top: 200px;
+    left: 650px;
+}
+
+.sold {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    gap: 10px;
+}
+
+.btn_big {
+    font-family: Roboto;
+    width: 165px;
+    height: 49px;
+    top: 2385px;
+    left: 916px;
+    border-radius: 5px;
+    color: white;
+    background-color: #D23166;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    border: #D23166;
+}
+
+.btn_big:hover {
+    background-color: white;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+
+
+.box_meddle {
+    position: absolute;
+    top: 625px;
+    left: 500px;
+}
+
+.text_meddle {
+    font-family: Hind Madurai;
+    position: absolute;
+    width: 706px;
+    height: 100px;
+    top: 680px;
+    left: 100px;
+}
+
+.sold_meddle {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    gap: 10px;
+}
+
+.btn_meddle {
+    font-family: Roboto;
+    width: 165px;
+    height: 49px;
+    top: 820px;
+    left: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: #D23166;
+    position: absolute;
+    border: #D23166;
+}
+
+.btn_meddle:hover {
+    background-color: white;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+
+.img_gigant {
+    position: absolute;
+    top: 1100px;
+    left: 60px;
+}
+
+.golem_meddle {
+    font-family: Hind Madurai;
+    position: absolute;
+    width: 706px;
+    height: 100px;
+    top: 1150px;
+    left: 620px;
+}
+
+.btn_gigant {
+    font-family: Roboto;
+    width: 165px;
+    height: 49px;
+    top: 1300px;
+    left: 620px;
+    border-radius: 5px;
+    color: white;
+    background-color: #D23166;
+    position: absolute;
+    border: #D23166;
+}
+
+.btn_gigant:hover {
+    background-color: white;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+
+.big_gigant_img {
+    position: absolute;
+    width: 564px;
+    height: 442px;
+    top: 1700px;
+    left: 600px;
+}
+
+.small_img {
+    width: 59px;
+    height: 58px;
+    top: 1800px;
+    left: 220px;
+    position: absolute;
+}
+
+.textlar_2 {
+    position: absolute;
+    width: 188px;
+    height: 48px;
+    top: 1800px;
+    left: 300px;
+    font-family: Roboto;
+}
+
+.textlar_3 {
+    position: absolute;
+    width: 322px;
+    height: 70px;
+    top: 1900px;
+    left: 250px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.img_very {
+    position: absolute;
+    width: 8.22px;
+    height: 14px;
+    top: 2050px;
+    left: 200px;
+}
+
+.along_img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2040px;
+    left: 220px;
+
+}
+
+.grow_img {
+    position: absolute;
+    top: 2030px;
+    left: 260px;
+}
+
+.along_img_good {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2040px;
+    left: 325px;
+}
+
+.hello_img {
+    position: absolute;
+    width: 8.22px;
+    height: 14px;
+    top: 2050px;
+    left: 370px;
+}
+
+.small_grow {
+    position: relative;
+    width: 1600px;
+    height: 682px;
+    top: 900px;
+    background-color: #F8EDF0;
+}
+
+.ice-cream_img {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+.big_text {
+    position: absolute;
+    font-family: Roboto;
+    top: 70px;
+    left: 600px;
+    font-size: 44.2px;
+}
+
+.tesla {
+    position: absolute;
+    font-family: Roboto;
+    top: 170px;
+    left: 600px;
+}
+
+.hero {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+
+.herobrine {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    display: flex;
+    position: absolute;
+    top: 305px;
+    left: 600px;
+}
+
+.iron_man {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    display: flex;
+    position: absolute;
+    top: 370px;
+}
+
+.tor {
+    position: absolute;
+    top: 420px;
+    left: 585px;
+}
+
+.hulk {
+    position: absolute;
+    top: 415px;
+    left: 790px;
+}
+
+.input {
+    width: 637px;
+    height: 344px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: 1000px;
+}
+
+.good_input {
+    top: 120px;
+    position: absolute;
+    width: 303px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background-color: #FFFFFF;
+    text-indent: 15px;
+
+}
+
+.input_text {
+    font-family: Roboto;
+}
+
+.input_select {
+    top: 120px;
+    left: 335px;
+    position: absolute;
+    width: 303px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background-color: #FFFFFF;
+    text-indent: 15px;
+}
+
+.audi {
+    top: 250px;
+    position: absolute;
+    width: 606px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background-color: #FFFFFF;
+    text-indent: 15px;
+}
+
+.input_btn {
+    width: 134px;
+    height: 74px;
+    top: 250px;
+    left: 470px;
+    border-radius: 5px;
+    position: absolute;
+    background: #D64374;
+    border: 1px solid #D23166;
+    color: white;
+    font-family: Roboto;
+}
+
+.input_btn:hover {
+    background-color: white;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+
+.footer {
+    width: 1600px;
+    height: 381px;
+    top: 1100px;
+    background-color: black;
+    position: relative;
+}
+
+.footer_img {
+    position: absolute;
+    top: 100px;
+    left: 245px;
+}
+
+.footer_text {
+    position: absolute;
+    color: white;
+    font-family: Roboto;
+    top: 200px;
+    left: 245px;
+}
+
+.footer_apple {
+    position: absolute;
+    top: 260px;
+    left: 250px;
+    color: white;
+    font-family: Roboto;
+}
+
+.footer_img_gigant {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 300px;
+    left: 250px;
+}
+
+.footer_item {
+    position: absolute;
+    color: white;
+    list-style-type: none;
+    top: 180px;
+    left: 520px;
+    font-family: Roboto;
+}
+
+.footer_box {
+    position: absolute;
+    top: 190px;
+    left: 697px;
+    color: white;
+    font-family: Roboto;
+    list-style-type: none;
+}
+
+.footer_small {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 956px;
+}
+
+.footer_input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid #D23166;
+    background-color: black;
+    text-indent: 15px;
+    position: absolute;
+    border-radius: 5px;
+    top: 200px;
+    left: 950px;
+}
+.tanos{
+    width: 134px;
+    height: 50px;
+    top: 200px;
+    left: 1260px;
+    border-radius: 5px;
+    position: absolute;
+    background: #D64374;
+    border: 1px solid #D23166;
+    color: white;
+    font-family: Roboto;    
+}
+
+.tanos:hover {
+    background-color: black;
+    color: #D23166;
+    transition: 1s;
+    border: #D23166 solid 1px;
+}
+.snake{
+    position: absolute;
+    top: 265px;
+    left: 950px;
+    display: flex;
+}
+
